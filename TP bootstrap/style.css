@@ -1,0 +1,396 @@
+body {
+  /*div background image*/
+  /*fin de div background image*/
+  /*section 3*/
+  /*fin de section 3*/
+  /*section 4*/
+  /*fin de section 4*/
+  /*section 5*/
+  /*fin de section 5*/
+  /*section 6*/
+  /*fin de section 6*/
+  /*footer*/
+  /*fin de footer*/
+}
+
+body .background {
+  width: 100%;
+  height: 1000px;
+  background-image: url(image/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  /*header*/
+  /*fin de header*/
+  /*section 1*/
+  /*fin de section 1*/
+  /*section 2*/
+  /*fin de section 2*/
+}
+
+body .background header {
+  width: 70%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+body .background header nav .container-fluid .navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+body .background header nav .container-fluid #navbarText {
+  padding-left: 15%;
+  font-weight: bold;
+}
+
+body .background header nav .container-fluid #navbarText li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+body .background header nav .container-fluid #navbarText li:hover {
+  background-color: #00b0ff;
+  color: white !important;
+}
+
+body .background section {
+  margin-top: 10%;
+}
+
+body .background section div {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+body .background section div h1 {
+  font-size: 50px;
+}
+
+body .background section div h3 {
+  font-size: 24px;
+  color: white;
+}
+
+body .background .section2 {
+  background-color: white;
+  width: 65%;
+}
+
+body .background .section2 .board {
+  margin-left: 0px;
+}
+
+body .background .section2 .details {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .background .section2 .titre2 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 5%;
+}
+
+body .background .section2 .titre2 li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body .background .section2 .titre2 .tab {
+  margin-top: 10%;
+}
+
+body .background .section2 .titre2 .desc {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 5%;
+}
+
+body .background .section2 .titre2 .price {
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 25%;
+}
+
+body .background .section2 .titre2 .price .prix {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+}
+
+body .background .section2 .titre2 .price button {
+  background-color: #00b0ff;
+  border-radius: 0px;
+}
+
+body .background .section2 .titre2 a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #00b0ff;
+}
+
+body .section3 {
+  width: 100%;
+  height: 600px;
+  background-image: url(image/backsurf.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30%;
+  position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  body .section3 {
+    position: static;
+  }
+}
+
+body .section3 .about {
+  width: 50%;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+  body .section3 .about {
+    position: static;
+  }
+}
+
+body .section3 .about .us {
+  width: 30%;
+  text-align: left;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+  body .section3 .about .us {
+    position: static;
+  }
+}
+
+body .section3 .about .us h3 {
+  text-align: center;
+}
+
+body .section3 .video {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+}
+
+@media only screen and (max-width: 768px) {
+  body .section3 .video {
+    position: static;
+  }
+}
+
+body .section4 {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+body .section4 h2 {
+  font-size: 250px;
+  opacity: 0.05;
+  text-align: center;
+}
+
+body .section4 .cartes {
+  margin: auto;
+  position: relative;
+  padding-bottom: 20%;
+}
+
+body .section4 .cartes .carte1 {
+  -webkit-box-shadow: 20px 20px 20px 20px grey;
+          box-shadow: 20px 20px 20px 20px grey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: absolute;
+  top: 0px;
+}
+
+body .section4 .cartes .carte2 {
+  -webkit-box-shadow: 20px 20px 20px 20px grey;
+          box-shadow: 20px 20px 20px 20px grey;
+  background-color: #00b0ff;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: absolute;
+  top: 40px;
+  left: 320px;
+  z-index: 10;
+}
+
+body .section4 .cartes .carte3 {
+  -webkit-box-shadow: 20px 20px 20px 20px grey;
+          box-shadow: 20px 20px 20px 20px grey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: absolute;
+  top: 0px;
+  left: 620px;
+  z-index: -10;
+}
+
+body .section4 .cartes .carte4 {
+  -webkit-box-shadow: 20px 20px 20px 20px grey;
+          box-shadow: 20px 20px 20px 20px grey;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  position: absolute;
+  top: 40px;
+  left: 920px;
+  background-color: white;
+}
+
+body .section5 {
+  padding-bottom: 15%;
+}
+
+body .section5 h2 {
+  padding-bottom: 5%;
+}
+
+body .section5 .posts {
+  width: 50%;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 5%;
+}
+
+body .section5 .posts .post1 {
+  -webkit-box-shadow: 10px 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px 10px grey;
+}
+
+body .section5 .posts .ellie p {
+  color: blue;
+}
+
+body .section5 button {
+  border-radius: 0px;
+  background-color: #00b0ff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+body .section6 {
+  width: 100%;
+  height: 400px;
+  background-color: white;
+}
+
+body .section6 .insta1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .section6 .insta {
+  padding-left: 30%;
+}
+
+body .section6 .insta .us {
+  background-color: white;
+}
+
+body .section6 .insta h5 {
+  color: #00b0ff;
+  font-size: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body .section6 .face {
+  padding-top: 2%;
+}
+
+body footer {
+  width: 100%;
+  height: 600px;
+  background-color: black;
+}
+
+body footer .menus {
+  padding-top: 5%;
+}
+
+body footer .menus .menu1 li {
+  color: white;
+  list-style: none;
+}
+
+body footer .menus .menu2 li {
+  color: white;
+  list-style: none;
+}
+
+body footer .copy {
+  padding-top: 7%;
+  width: 15%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  color: grey;
+}
+
+body footer .copy .ul1 {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body footer .copy .ul1 .li1 {
+  list-style: none;
+}
+
+body footer .news {
+  width: 20%;
+  border-bottom: 2px solid grey;
+}
+
+body footer .news h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+body footer .news p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .news p button {
+  border: 1px solid #00b0ff;
+  border-radius: 25px;
+  background-color: #00b0ff;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
